@@ -1,6 +1,6 @@
-﻿namespace VipCard
+﻿namespace VipCard.View
 {
-    partial class Login
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Login
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Name = "Login";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Login_Load);
+            this.ClientSize = new System.Drawing.Size(561, 262);
+            this.Name = "Main";
+            this.Text = "Main";
             this.ResumeLayout(false);
 
         }
@@ -45,4 +44,3 @@
         #endregion
     }
 }
-
